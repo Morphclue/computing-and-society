@@ -77,14 +77,41 @@ The therapeutic bond with the patient ensures that the patient feels more unders
 However, this understanding is only an illusion because Woebot cannot truly understand the user's thoughts.
 It could happen that users interpret more knowledge processing into Woebot than it can actually do.\\
 
+Processing user input using NLP is another problem that has accompanied ELIZA's invention.
+As shown in \autoref{fig:dyslexia}, Woebot is not able to recognize typos.
+In the event of misunderstandings, Woebot reacts with predefined sentences.
+However, typos are not the only source of error that occur in a system using NLP.
+Misunderstandings can occur for a number of reasons, typos being only one of them.
 
+Language is multifaceted and this is exactly where the problem for a text based conversational agent lies.
+Phrases can have multiple meanings.
+An example for this are homonyms.
+Words that have the same spelling but have different meanings.
+Semantic ambiguity can also occur in whole sentences.
+An example would be: "Call me a doctor".
+This could either mean that the person saying this sentence would like to talk to a doctor or would like to be called a doctor.
+This ambiguity could be reduced by giving more context.
+"I would like you to call a doctor for me" or "Please refer to me as a doctor" would be examples for disambiguation.
+Without enough context it is not possible for NLP to process the true meaning of a word or sentence.\\
 
-% NLP - misunderstandings?
-% Phrases with multiple intentions
-% Semantic ambiguity
-% Comma - Let's eat grandpa - Chatlike interaction
-% Misspellings
-% forced answers at the cost of less input, but less errors
+These problems lie in the design of Woebot.
+Due to the chat-like design users might be encouraged to text like they would in a chat with their friends.
+Users tend to write without proper punctuation in chat-like services\cite{punctuation}.
+The lack of punctuation in instant messaging services are another example for prone to error and lack of context.
+The popular example "Let's eat grandpa" and "Let's eat, grandpa" illustrates the problem.
+Additionally, an analysis of message length in WhatsApp shows that around 87\% of all messages contain one to ten words\cite{whatsapp-usage}.
+The data cannot be transferred completely to Woebot because users may use the application differently than other chat services.
+However, the short message length of Woebot and the use of emojis speak for similar results as in the just mentioned study.
+According to a psychologist these misunderstandings could have a very negative impact on the user.
+
+\begin{quote}
+    If this happened in therapy, the therapist may lose the client's trust and risk damaging their rapport or therapeutic alliance because it may come across as the therapist ignoring the client's feelings.
+    If the client feels unseen/unheard, s/he may not be as receptive to the skills/ lessons available to them in therapy\cite{investigating-students}.
+\end{quote}
+
+Ready-made answers ensure that the source of error is reduced, but this also ensures that users are forced to give certain answers.
+This limitation has the problem that users cannot identify themselves with certain answers\cite{emoticons}.
+
 
 % Ai biased
 % An NLP might exploit certain social prejudices
