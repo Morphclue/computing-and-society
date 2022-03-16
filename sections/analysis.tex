@@ -149,22 +149,33 @@ In order to be able to explain the example, however, a chat history is first sho
 The decision-maker lesson teaches the users how to make decisions based on scores that are assigned to tasks.
 \autoref{table:chat} shows an excerpt from a conversation with Woebot (W) with the user (U).
 
-\begin{center}
-    \begin{table}[ht]
-        \begin{tabularx}{\columnwidth}{l X}
-            \hline
-            Turn & Text \\
-            \hline
-            : & \\
-            W & To start, calculate the advantages of option B by adding 100 and 30 \\
-            W & Write it below \\
-        \end{tabularx}
-        \caption{Excerpt of a conversation with Woebot}
-        \label{table:chat}
-    \end{table}
-\end{center}
+\begin{table}[ht]
+    \begin{tabularx}{\columnwidth}{l X}
+        \hline
+        Turn & Text                                                                \\
+        \hline
+        :    &                                                                     \\
+        W    & To start, calculate the advantages of option B by adding 100 and 30 \\
+        W    & Write it below                                                      \\
+        U    & 2                                                                   \\
+        W    & Now add the numbers (0+70)                                          \\
+        W    & This will be the total disadvantages for option B                   \\
+        W    & Write it below                                                      \\
+        U    & 1                                                                   \\
+        W    & Now to calculate the total for option B, calculate (2-1)            \\
+        W    & Notice that minus sign!                                             \\
+        W    & Write the result below                                              \\
+        U    & 0                                                                   \\
+        W    & This number is your total for Option B!                             \\
+    \end{tabularx}
+    \caption{Excerpt of a conversation with Woebot}
+    \label{table:chat}
+\end{table}
 
-These miscalculations are exaggerated, but illustrate the problem very clearly.
+The miscalculations in \autoref{table:chat} are exaggerated, but illustrate the problem very clearly.
+Miscalculations can happen, and it is not okay that incorrect input is used for further calculations.
+The idea of giving users a tool that they can use outside Woebot is not a bad thing.
+However, in this case, Woebot could have pointed out the miscalculation to the user in a friendly manner.
 
 \subsection{Context}
 % Biometric sensor - privacy - phonesharing context
