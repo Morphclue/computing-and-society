@@ -188,8 +188,8 @@ However, in this case, Woebot could have pointed out the miscalculation to the u
 \subsection{Context}
 Changing the context of use of applications can provide further insight into problems.
 Especially non-stereotypical contexts highlight weak points of the application.
-In this section, two contexts are shown to give examples of different contexts of use.\\
-% TODO: describe what happens after the two contexts
+In this section, two contexts are shown to give examples of different contexts of use.
+Then several problems are addressed on a societal levels.
 
 The first context describes an imaginary family that does not have enough money.
 Due to the financial situation, the father of the family sinks into a depression.
@@ -234,9 +234,45 @@ However, another perspective must be taken.
 Technology shapes society and vice versa\cite{materializing-morality}.
 Many factors are influenced, which is why the relationship between technology and society is important.
 It is therefore important to analyze the social impact of the technology.
+The problem is that technologies are multistable and get defined by their context of use\cite{ihde-multistable}.
+This can lead to unforeseen consequences, as obviously not enough contexts were examined in the Woebot example.
+The evidence for this was made clear by the aforementioned contexts.
+While designers may have intentions about how users should use the applications, the application's interpretation and usage is up to the user.
+In addition to the multi-stability of technologies and the different possibilities of interpretation, there might be many other unforeseen consequences that result from the combination of these two.\\
 
-% TODO reflect on even broader settings of the app
-% What kind of data is collected and is it used for advertising?
-% What kind of possible ethical / value questions might emerge?
-% Who are further stakeholders of the app - people or organizations that might benefit or be harmed by it?
-% Paid / free app?
+Some issues with Woebot's handling of data have already been mentioned.
+There is no information as to which training data has been used, nor it is disclosed exactly which data is being shared with the company.
+The right to access the personal data upon request is given, but the exact processing of it remains unknown.
+This lack of transparency ensures that users do not have the opportunity to reflect correctly on the use of Woebot.
+Data is also shared with the Google Analytics service, which ensures that personalized advertising is possible\cite{woebot-privacy}.\\
+
+For historical reasons, it is known that data breaches can occur.
+They can be caused specifically by hacker groups.
+These cyberattacks took place in Singapore where not only the data of 14,200 people infected with human immunodeficiency virus (HIV) were hacked, but also of around 1.5 million patients\cite{hiv-singapore}.
+The two institutions that were under attack are the Ministry of Health and SingHealth.
+However, the cases in Singapore are not isolated cases, but there are numerous other examples.
+The company Cense AI leaked over 2.5 million medical records\cite{pcmag-leak}.
+Another example would be the leak of almost 500,000 medical records in France\cite{france-leak}.
+All examples clearly show that even in larger companies that keep several million patient records, datasets are not secure enough.
+The consequences that medical data in particular contains highly sensitive data further complicates this problem.\\
+
+This problem is further illustrated by examining the data involved.
+The previously showed sources mention demographic data or medical diagnoses.
+If a person comes into possession of this data, this can often lead to unforeseen consequences.
+Take the example of those infected with HIV that were leaked in Singapore and France.
+Because of the many types of stigma against these individuals, be it interpersonal or constitutional, these individuals face many types of problems\cite{stigma-hiv}.
+It can happen that these people are physically abused or denied employment because of this stigma.
+This example illustrates that security and privacy of anyone whose data is stolen is at great risk.
+For this reason, it is particularly important that the Woebot development team takes care of security mechanisms that combat this risk.
+Woebot seems to be aware of this issue as they use 256-bit encryption and anonymized user data\cite{woebot-security}.
+The extent to which user data can still be de-anonymized remains unknown, as this data is not available.\\
+
+As Woebot accompanies life-changing decisions, an ethical question arises.
+Who is accountable for mistakes?
+This question arises not only for individuals, but also on a broader level.
+This is because the social impact, as mentioned earlier, can have negative consequences.
+It is possible that this and other ethical questions were answered internally at Woebot's AI design team, but there is no public source on this.
+Another open question is to what extent digital health is exacerbating the digital divide in society.
+
+% digital divide - exclusion by design - need for electricity https://adc.org.ar/wp-content/uploads/2021/06/ADC-Privacy-is-health.pdf
+% issue of access
